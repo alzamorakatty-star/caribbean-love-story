@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import CountdownTimer from "@/components/CountdownTimer";
 import RSVPForm from "@/components/RSVPForm";
 import { Calendar, MapPin, Languages } from 'lucide-react';
-import watercolorFlower from '@/assets/watercolor-flower.png';
+import watercolorFlower from '@/assets/watercolor-flower-cool.png';
 
 const WeddingPage = () => {
   const [showRSVP, setShowRSVP] = useState(false);
