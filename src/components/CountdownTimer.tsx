@@ -1,6 +1,10 @@
 import { useState, useEffect } from 'react';
 
-const CountdownTimer = () => {
+interface CountdownTimerProps {
+  isSpanish?: boolean;
+}
+
+const CountdownTimer = ({ isSpanish = false }: CountdownTimerProps) => {
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
     hours: 0,
@@ -33,6 +37,23 @@ const CountdownTimer = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const timeLabels = {
+    en: {
+      days: 'days',
+      hours: 'hours', 
+      minutes: 'minutes',
+      seconds: 'seconds'
+    },
+    es: {
+      days: 'días',
+      hours: 'horas',
+      minutes: 'minutos', 
+      seconds: 'segundos'
+    }
+  };
+
+  const labels = isSpanish ? timeLabels.es : timeLabels.en;
+
   return (
     <div className="flex justify-center space-x-8">
       {Object.entries(timeLeft).map(([unit, value]) => (
@@ -41,7 +62,7 @@ const CountdownTimer = () => {
             {value.toString().padStart(2, '0')}
           </div>
           <div className="text-sm font-playfair uppercase tracking-wider text-muted-foreground">
-            {unit}
+            {labels[unit as keyof typeof labels]}
           </div>
         </div>
       ))}

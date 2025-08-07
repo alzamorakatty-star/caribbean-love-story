@@ -117,7 +117,7 @@ const WeddingPage = () => {
           <h3 className="text-2xl font-playfair font-semibold text-primary mb-4">
             {t.untilSpecialDay}
           </h3>
-          <CountdownTimer />
+          <CountdownTimer isSpanish={isSpanish} />
         </section>
 
         {/* RSVP Button */}
