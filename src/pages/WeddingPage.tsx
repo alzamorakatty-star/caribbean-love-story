@@ -40,17 +40,16 @@ const WeddingPage = () => {
   };
 
   return (
-    <div className="min-h-screen relative bg-background">
-      {/* Background - watercolor floral watermark */}
-      <div className="absolute inset-0 min-h-screen w-full z-[-1]">
+    <div className="min-h-screen relative overflow-hidden">
+      {/* Background - white with floral watermark */}
+      <div className="fixed inset-0 z-0 bg-background">
         <div 
-          className="h-full w-full opacity-30"
+          className="absolute inset-0 opacity-10"
           style={{ 
             backgroundImage: `url(${watercolorFlower})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
-            backgroundAttachment: 'scroll'
+            backgroundRepeat: 'no-repeat'
           }}
         ></div>
       </div>
