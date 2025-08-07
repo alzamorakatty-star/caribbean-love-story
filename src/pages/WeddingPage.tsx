@@ -14,16 +14,16 @@ const WeddingPage = () => {
       saturday: "Saturday",
       untilSpecialDay: "Until Our Special Day",
       confirmAttendance: "Confirm Attendance",
-      quote: "In this life, we've decided to build a present full of shared dreams, where every moment becomes a celebration of our identity and love.",
-      excitement: "We're so excited to share this moment with you. You'll soon receive your official invitation with more details. Get ready to celebrate!",
+      quote: "In this life, we've chosen to walk together and build a present that gives meaning to what we share — celebrating our identity and our love in the ordinary and the extraordinary.",
+      excitement: "We're so excited to share this moment with you! Your official invitation with all the details is on its way — get ready to celebrate!",
       date: "February 7, 2026"
     },
     es: {
       saturday: "Sábado",
       untilSpecialDay: "Hasta Nuestro Día Especial",
       confirmAttendance: "Confirmar Asistencia",
-      quote: "En esta vida, hemos decidido construir un presente lleno de sueños compartidos, donde cada instante se convierte en una celebración de nuestra identidad y amor.",
-      excitement: "¡Estamos muy emocionados de compartir este momento contigo! Pronto recibirás tu invitación oficial con más detalles. ¡Prepárate para celebrar!",
+      quote: "En esta vida, decidimos caminar juntos y construir un presente que le dé sentido a lo que compartimos, celebrando nuestra identidad y nuestro amor en lo cotidiano y lo extraordinario.",
+      excitement: "¡Estamos muy emocionados de compartir este momento contigo! Muy pronto recibirás tu invitación oficial con todos los detalles — ¡prepárate para celebrar!",
       date: "7 de febrero de 2026"
     }
   };
