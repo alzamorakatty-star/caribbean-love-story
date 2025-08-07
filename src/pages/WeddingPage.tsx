@@ -44,12 +44,14 @@ const WeddingPage = () => {
       {/* Background - white with floral watermark */}
       <div className="fixed inset-0 z-0 bg-background">
         <div 
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-20 md:opacity-10"
           style={{ 
             backgroundImage: `url(${watercolorFlower})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            minHeight: '100vh',
+            minWidth: '100vw'
           }}
         ></div>
       </div>
