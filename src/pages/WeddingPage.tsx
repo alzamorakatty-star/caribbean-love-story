@@ -14,7 +14,7 @@ const WeddingPage = () => {
       saturday: "Saturday",
       untilSpecialDay: "Until Our Special Day",
       confirmAttendance: "Confirm Attendance",
-      quote: "In this life, we've decided to build a present full of shared dreams, where every moment becomes a celebration of our identity and love. We are Caribbean, and that's why we wanted to create a moment that transports us to the essence of our land: intense flavors, vibrant aromas, bright colors, festive sounds, and the magic born from the water and earth around us.",
+      quote: "In this life, we've decided to build a present full of shared dreams, where every moment becomes a celebration of our identity and love.",
       excitement: "We're so excited to share this moment with you. You'll soon receive your official invitation with more details. Get ready to celebrate!",
       date: "February 7, 2026"
     },
@@ -22,7 +22,7 @@ const WeddingPage = () => {
       saturday: "Sábado",
       untilSpecialDay: "Hasta Nuestro Día Especial",
       confirmAttendance: "Confirmar Asistencia",
-      quote: "En esta vida, hemos decidido construir un presente lleno de sueños compartidos, donde cada instante se convierte en una celebración de nuestra identidad y amor. Somos Caribe, y por eso quisimos crear un momento que nos transporte a la esencia de nuestra tierra: los sabores intensos, los aromas vibrantes, los colores vivos, los sonidos festivos y la magia que nace del agua y la tierra que nos rodea.",
+      quote: "En esta vida, hemos decidido construir un presente lleno de sueños compartidos, donde cada instante se convierte en una celebración de nuestra identidad y amor.",
       excitement: "¡Estamos muy emocionados de compartir este momento contigo! Pronto recibirás tu invitación oficial con más detalles. ¡Prepárate para celebrar!",
       date: "7 de febrero de 2026"
     }

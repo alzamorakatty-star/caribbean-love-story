@@ -11,7 +11,6 @@ const RSVPForm = () => {
     name: '',
     email: '',
     phone: '',
-    guests: '1',
     dietary: '',
     message: ''
   });
@@ -34,7 +33,6 @@ const RSVPForm = () => {
       name: '',
       email: '',
       phone: '',
-      guests: '1',
       dietary: '',
       message: ''
     });
@@ -96,23 +94,6 @@ const RSVPForm = () => {
             />
           </div>
           
-          <div className="space-y-2">
-            <Label htmlFor="guests" className="font-playfair">Number of Guests / Número de Invitados</Label>
-            <select
-              id="guests"
-              name="guests"
-              value={formData.guests}
-              onChange={handleChange}
-              className="w-full px-3 py-2 border border-input rounded-md bg-background font-playfair"
-              required
-            >
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5+</option>
-            </select>
-          </div>
           
           <div className="space-y-2">
             <Label htmlFor="dietary" className="font-playfair">Dietary Requirements / Restricciones Alimentarias</Label>
