@@ -4,6 +4,7 @@ import CountdownTimer from "@/components/CountdownTimer";
 import RSVPForm from "@/components/RSVPForm";
 import { Calendar, MapPin, Languages } from 'lucide-react';
 import watercolorFlower from '@/assets/watercolor-flower-cool.png';
+import WeddingCalendar from "@/components/WeddingCalendar";
 
 const WeddingPage = () => {
   const [showRSVP, setShowRSVP] = useState(false);
@@ -110,6 +111,13 @@ const WeddingPage = () => {
           <blockquote className="text-lg leading-relaxed text-foreground font-playfair italic text-center max-w-xl mx-auto">
             "{t.quote}"
           </blockquote>
+        </section>
+
+        {/* Wedding Calendar - February 2026 */}
+        <section className="py-10 px-6">
+          <div className="max-w-5xl mx-auto">
+            <WeddingCalendar />
+          </div>
         </section>
 
         {/* Countdown */}
