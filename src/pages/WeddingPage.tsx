@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Button } from "@/components/ui/button";
 import CountdownTimer from "@/components/CountdownTimer";
 import RSVPForm from "@/components/RSVPForm";
+import WeddingCalendar from "@/components/WeddingCalendar";
 import { Calendar, MapPin, Languages } from 'lucide-react';
 import watercolorFlower from '@/assets/watercolor-flower-cool.png';
 
@@ -110,6 +111,11 @@ const WeddingPage = () => {
           <blockquote className="text-lg leading-relaxed text-foreground font-playfair italic text-center max-w-xl mx-auto">
             "{t.quote}"
           </blockquote>
+        </section>
+
+        {/* Calendar Section */}
+        <section className="py-10 px-6">
+          <WeddingCalendar isSpanish={isSpanish} />
         </section>
 
         {/* Countdown */}
